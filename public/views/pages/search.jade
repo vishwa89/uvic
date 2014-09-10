@@ -1,0 +1,20 @@
+#search
+  .filter
+    - var cityOptions = [{value: "a1"}, {value: "b1"}]
+    select(multiple ng-model="cities")      
+      each val in cityOptions
+        option(value="#{val.value}")
+          | #{val.value}
+    - var subjectOptions = [{value: "math"}, {value: "art"}, {value: "business"}]
+    select(multiple ng-model="subjects") 
+      each val in subjectOptions
+        option(value="#{val.value}")
+          | #{val.value}
+#courses(ng-controller="coursesCtrl")
+  ul
+    li(ng-repeat="course in courses | coursesFilter:cities:subjects")
+      h2 {{course.name}} 
+      br
+      | {{course.city}}
+      br
+      | {{course.subject}}

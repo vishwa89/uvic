@@ -1,0 +1,8 @@
+#courses(ng-controller="coursesCtrl")
+  ul
+    li(ng-repeat="course in courses")
+      h2 {{course.name}} 
+      br
+      | {{course.city}}
+      br
+      | {{course.subject}}

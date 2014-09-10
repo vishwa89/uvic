@@ -1,0 +1,32 @@
+[
+	{
+		"name": "course1",
+		"city": "a1",
+		"subject": "math"
+	},
+	{
+		"name": "course2",
+		"city": "a1",
+		"subject": "art"
+	},
+	{
+		"name": "course3",
+		"city": "a1",
+		"subject": "business"
+	},
+	{
+		"name": "course4",
+		"city": "b1",
+		"subject": "math"
+	},
+	{
+		"name": "course5",
+		"city": "b1",
+		"subject": "art"
+	},
+	{
+		"name": "course6",
+		"city": "b1",
+		"subject": "business"
+	}
+]

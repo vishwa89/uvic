@@ -1,0 +1,26 @@
+[
+	{
+    "id": "1001",
+    "name": "article-1001",
+    "category": "education",
+    "content": "In this session you will learn the ins and outs of directives!"
+  },
+  {
+    "id": "1002",
+    "name": "article-1002",
+    "category": "education",
+    "content": "In this session you will learn the ins and outs of directives!"
+  },
+  {
+    "id": "1003",
+    "name": "article-1003",
+    "category": "education",
+    "content": "In this session you will learn the ins and outs of directives!"
+  },
+  {
+    "id": "1004",
+    "name": "article-1004",
+    "category": "education",
+    "content": "In this session you will learn the ins and outs of directives!"
+  }
+]

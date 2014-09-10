@@ -1,0 +1,5 @@
+#articles(ng-controller="articlesCtrl")
+	ul
+		li(ng-repeat="article in articles")
+			a(href="article-{{article.id}}.html")
+				| {{article.name}}

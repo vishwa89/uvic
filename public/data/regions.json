@@ -1,0 +1,59 @@
+[
+	{
+    "name": "a",
+    "cities": [
+    	{
+    		"name": "a1"
+    	},
+    	{
+    		"name": "a2"
+    	},
+    	{
+    		"name": "a3"
+    	},
+    	{
+    		"name": "a4"
+    	}
+    ]
+  },
+  {
+    "name": "b",
+		"cities": [
+		  {
+		    "name": "b1"
+		  },
+		  {
+		    "name": "b2"
+		  },
+		  {
+		    "name": "b3"
+		  },
+		  {
+		    "name": "b4"
+		  },
+		  {
+		    "name": "b5"
+		  }
+		]
+  },
+  {
+    "name": "c",
+		"cities": [
+		  {
+		    "name": "c1"
+		  },
+		  {
+		    "name": "c2"
+		  },
+		  {
+		    "name": "c3"
+		  },
+		  {
+		    "name": "c4"
+		  },
+		  {
+		    "name": "c5"
+		  }
+		]
+  }
+]
