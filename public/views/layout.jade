@@ -10,11 +10,18 @@ html(ng-app="uvic")
     meta(name="apple-mobile-web-app-title" content="ALT")
     title UVIC
     link(rel='stylesheet' href='/vendor/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet' href='/asset/css/font-awesome.min.css')
     link(rel='stylesheet' href='/asset/css/normalize.css')
+    link(rel='stylesheet' href='/asset/css/index.css')
+    link(rel='stylesheet' href='/asset/css/top-nav.css')
+    link(rel='stylesheet' href='/asset/css/bottom-nav.css')
+
        
     body
       header
+        include navs/top-nav
       section#main
         div(ng-view)
       footer
+        include navs/bottom-nav 
       include scripts
