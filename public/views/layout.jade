@@ -15,13 +15,19 @@ html(ng-app="uvic")
     link(rel='stylesheet' href='/asset/css/index.css')
     link(rel='stylesheet' href='/asset/css/top-nav.css')
     link(rel='stylesheet' href='/asset/css/bottom-nav.css')
+    link(rel='stylesheet' href='/asset/css/immigration-home.css')
+    link(rel='stylesheet' href='/asset/css/student-visa.css')
+    link(rel='stylesheet' href='/asset/css/education-home.css')
+    link(rel='stylesheet' href='/asset/css/article-index.css')
+    
 
        
     body
-      header
-        include navs/top-nav
-      section#main
-        div(ng-view)
-      footer
-        include navs/bottom-nav 
-      include scripts
+      .container
+        header
+          include navs/top-nav
+        section#main
+          div(ng-view)
+        footer
+          include navs/bottom-nav 
+        include scripts

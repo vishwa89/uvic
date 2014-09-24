@@ -1,3 +1,12 @@
+.icons {
+  background-image: url("../img/icons.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 40px;
+  display: inline-block;
+  height: 20px;
+  vertical-align: -16%;
+}
 .navbar {
   height: 100px;
   background-color: #fff;
@@ -20,4 +29,27 @@
   padding-top: 40px;
   padding-bottom: 40px;
   color: #808184 !important;
+}
+.side-icons {
+  list-style-type: none;
+  position: absolute;
+  top: 180px;
+  right: 0;
+  z-index: 1;
+}
+.side-icons li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 5px;
+  height: 35px;
+  width: 41px;
+  text-align: center;
+}
+.side-icons li .icons {
+  background-position: 36% 97%;
+  width: 30px;
+  height: 24px;
+}
+.side-icons li:first-child .icons {
+  background-position: -1% 100%;
 }

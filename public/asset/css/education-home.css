@@ -1,0 +1,117 @@
+#educationHomepage .heading-tabs {
+  border: 0;
+  height: 22px;
+  width: 90%;
+  margin-left: 5%;
+}
+#educationHomepage .heading-tabs li {
+  padding: 0;
+  margin: 0;
+  width: 15%;
+  text-align: center;
+  border-right: 1px solid #929497;
+  height: 21px;
+}
+#educationHomepage .heading-tabs li:first-child {
+  width: 19%;
+}
+#educationHomepage .heading-tabs li:nth-child(4) .icons {
+  background-position: 30% 0;
+}
+#educationHomepage .heading-tabs li:nth-child(5) .icons {
+  background-position: 63% 0;
+}
+#educationHomepage .heading-tabs li:last-child {
+  border-right: 0;
+}
+#educationHomepage .heading-tabs li:last-child .icons {
+  background-position: 100% 0;
+}
+#educationHomepage .heading-tabs li a {
+  color: #929497;
+  font-size: 14pt;
+  line-height: 21px;
+}
+#educationHomepage .heading-tabs li a:hover {
+  text-decoration: none;
+}
+#educationHomepage .banner {
+  background: url("../img/eduhome-01.jpg") no-repeat;
+  height: 350px;
+}
+#educationHomepage .search-info {
+  background: url("../img/eduhome-04.jpg") no-repeat;
+  height: 350px;
+  background-size: 100%;
+  margin-bottom: 25px;
+}
+#educationHomepage .search-info .tabbed-info {
+  background-color: rgba(0,173,238,0.87);
+  height: 350px;
+}
+#educationHomepage .search-info .tabbed-info h2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 45%;
+  transform: translateY(-45%);
+}
+#educationHomepage .categories {
+  height: 800px;
+}
+#educationHomepage .categories h2 {
+  background-color: rgba(0,173,238,0.87);
+  color: #fff;
+  font-size: 28pt;
+  height: 60px;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#educationHomepage .categories .data {
+  background-color: rgba(0,173,238,0.87);
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
+}
+#educationHomepage .categories .data ul {
+  float: left;
+  margin-left: 10%;
+}
+#educationHomepage .categories .data ul li a {
+  color: #fff;
+}
+#educationHomepage .categories .level {
+  background: url("../img/eduhome-03.jpg") no-repeat;
+  height: 350px;
+  position: relative;
+}
+#educationHomepage .categories .articles {
+  background: url("../img/eduhome-04.jpg") no-repeat;
+  height: 350px;
+  position: relative;
+}
+#educationHomepage .categories .articles h2 {
+  background-color: rgba(237,46,124,0.87);
+}
+#educationHomepage .categories .articles .data {
+  background-color: rgba(237,46,124,0.87);
+}
+#educationHomepage .categories .success {
+  background: url("../img/eduhome-05.jpg") no-repeat;
+  height: 350px;
+  position: relative;
+}
+#educationHomepage .categories .subject {
+  background: url("../img/eduhome-02.jpg") no-repeat;
+  height: 350px;
+  position: relative;
+}
+#educationHomepage .categories .subject h2 {
+  background-color: rgba(237,46,124,0.87);
+}
+#educationHomepage .categories .subject .data {
+  background-color: rgba(237,46,124,0.87);
+}

@@ -336,7 +336,7 @@ th {
 }
 body {
   font-family: PT_Sans;
-  
+/*margin-bottom: 40px*/
 }
 ul {
   padding-left: 0;
@@ -395,4 +395,26 @@ li {
 .col-lg-12 {
   padding-right: 0px;
   padding-left: 0px;
+}
+html {
+  position: relative;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+body > .container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+}
+body #main {
+  width: 100%;
+}
+body #main .ng-scope {
+  padding-bottom: 60px;
+  width: 100%;
+  overflow: hidden;
 }

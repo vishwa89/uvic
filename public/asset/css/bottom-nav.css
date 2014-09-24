@@ -1,33 +1,33 @@
-.footer {
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
   background-color: #fff;
 }
-.footer> .container {
+footer> .container {
   width: 100%;
   border-top: 1px solid #000;
   padding-top: 10px;
   padding-right: 30px;
   padding-left: 30px;
 }
-.footer .info-tab {
+footer .info-tab {
   height: 14pt;
 }
-.footer .info-tab li {
+footer .info-tab li {
   border-left: 1px solid #000;
 }
-.footer .info-tab li:first-child,
-.footer .info-tab li:nth-child(2) {
+footer .info-tab li:first-child,
+footer .info-tab li:nth-child(2) {
   border-left: 0;
 }
-.footer li {
+footer li {
   font-size: 14pt;
   height: 16pt;
   color: #6d6e70;
 }
-.footer li a {
+footer li a {
   font-size: 14pt;
   padding-top: 0;
   margin-top: 0;
