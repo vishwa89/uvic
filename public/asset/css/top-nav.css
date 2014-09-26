@@ -21,6 +21,9 @@
   text-align: center;
   margin: auto;
 }
+.navbar-brand .home-logo {
+  display: none;
+}
 .navbar-nav > li {
   height: 100px;
 }
@@ -41,14 +44,15 @@
   background-color: #fff;
   margin-bottom: 10px;
   padding: 5px;
-  height: 35px;
-  width: 41px;
+  height: 40px;
+  width: 45px;
   text-align: center;
+  box-shadow: 0px 0px 5px 2px #929497;
 }
 .side-icons li .icons {
   background-position: 36% 97%;
   width: 30px;
-  height: 24px;
+  height: 29px;
 }
 .side-icons li:first-child .icons {
   background-position: -1% 100%;

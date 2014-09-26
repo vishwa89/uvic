@@ -148,6 +148,9 @@
 #articleDetail .article h4.date {
   text-align: right;
 }
+#articleDetail .article img {
+  width: 100%;
+}
 #articleDetail .article p {
   font-size: 14pt;
 }

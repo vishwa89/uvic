@@ -5,7 +5,8 @@ nav.navbar.navbar-default(role="navigation")
       span.icon-bar
       span.icon-bar
   a.navbar-brand(href="#")
-    img.logo(ng-src= '/asset/img/grey_logo.jpg')
+    img.logo.home-logo(ng-src= '/asset/img/grey_logo.jpg' ng-mode="hompage-logo")
+    img.logo(ng-src= '/asset/img/logo.png' ng-model ="logo")
   .navbar-collapse.collapse
     ul.nav.navbar-nav.navbar-left
       li

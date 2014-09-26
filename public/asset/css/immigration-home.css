@@ -36,6 +36,7 @@
 #immigrationHomepage .banner {
   background: url("../img/banner.jpg") no-repeat;
   height: 350px;
+  background-size: 100%;
 }
 #immigrationHomepage .banner h2 {
   position: relative;

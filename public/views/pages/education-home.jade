@@ -27,141 +27,164 @@
 
   .col-lg-10.col-lg-offset-1.categories
 
-    .col-lg-6.level
-      h2 Level
+    .col-lg-6
+      .level(ng-mouseenter="show1 = true" ng-mouseleave="show1 = false")
+        h2 Level
       
-      .data
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-   
-    .col-lg-6.subject
-      h2 Subject
-      .data
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
+        .data(ng-show="show1")
+          ul
+            li
+              a
+                | A level
+            li
+              a
+                | Bachelor
+            li
+              a
+                | MA
+          
+            li
+              a
+                | MBA
+              a
+                | Pre study
+            li
+              a
+                | Language Course
+         
+            li
+              a
+                | Visit
+          ul
+            li
+              a
+                | A level
+            li
+              a
+                | Bachelor
+            li
+              a
+                | MA
+          
+            li
+              a
+                | MBA
+              a
+                | Pre study
+            li
+              a
+                | Language Course
+         
+            li
+              a
+                | Visit
+    .col-lg-6
+      .subject(ng-mouseenter="show2 = true" ng-mouseleave="show2 = false")
+        h2 Subject
+        .data(ng-show="show2")
+          ul
+            li
+              a
+                | Accounting and financial
+            li
+              a
+                | Trading
+            li
+              a
+                | Economics
+          
+            li
+              a
+                | Media
+            li
+              a
+                | Educational
+            li
+              a
+                | Linguistics
+          
+            li
+              a
+                | IT
+           
+          ul
+            li
+              a
+                | Accounting and financial
+            li
+              a
+                | Trading
+            li
+              a
+                | Economics
+          
+            li
+              a
+                | Media
+            li
+              a
+                | Educational
+            li
+              a
+                | Linguistics
+          
+            li
+              a
+                | IT
+        
 
-    .col-lg-6.articles
-      h2 Recommended Articles
-      .data
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-    .col-lg-6.success
-      h2 Sucessful Cases
-      .data
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-        ul
-          li
-            a
-              | A level
-          li
-            a
-              | A level
-          li
-            a
-              | A level
+    .col-lg-6
+      .articles(ng-mouseenter="show3 = true" ng-mouseleave="show3 = false")
+        h2 Recommended Articles
+        .data(ng-show="show3")
+          ul
+            li
+              a
+                | Germany expels US spy row official
+            li
+              a
+                | Death rise in air strikes on gaza
+            li
+              a
+                | Bank holds interests rates at 0.5%
+            li
+              a
+                | Police blamed over 1985 shooting
+          
+    .col-lg-6
+      .success(ng-mouseenter="show4 = true" ng-mouseleave="show4 = false")
+        h2 Sucessful Cases
+        .data(ng-show="show4")
+          ul
+            li
+              a
+                | name
+            li
+              a
+                | name
+            li
+              a
+                | name
+          ul
+            li
+              a
+                | university name 1
+            li
+              a
+                |  university name 2
+            li
+              a
+                | university name 3
+          ul
+            li
+              a
+                | extra info
+            li
+              a
+                | extra info
+            li
+              a
+                | extra info
  
 
 

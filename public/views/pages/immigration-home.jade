@@ -17,51 +17,51 @@
  
   .categories.col-lg-12
 
-    .student
+    .student(ng-mouseenter="show = true" ng-mouseleave="show = false")
       h5
        | Student
-      p
+      p(ng-show="show")
         | We need to get this live on the official site today,once you done it,please let me,then there will be a little.
         
         a
           | more...
-    .family
+    .family(ng-mouseenter="show1 = true" ng-mouseleave="show1 = false")
       h5
        | Family
-      p
+      p(ng-show="show1")
         | We need to get this live on the official site today,once you done it,please let me,then there will be a little.
         
         a
           | more...
-    .immigration
+    .immigration(ng-mouseenter="show2 = true" ng-mouseleave="show2 = false")
       h5
        | Immigration
-      p
+      p(ng-show="show2")
         | We need to get this live on the official site today,once you done it,please let me,then there will be a little.
         
         a
           | more...
-    .eu
+    .eu(ng-mouseenter="show3 = true" ng-mouseleave="show3 = false")
       h5
        | EU
-      p
+      p(ng-show="show3")
         | We need to get this live on the official site today,once you done it,please let me,then there will be a little.
         
         a
           | more...
-    .work
+    .work(ng-mouseenter="show4 = true" ng-mouseleave="show4 = false")
       h5
        | Work
-      p
+      p(ng-show="show4")
         | We need to get this live on the official site today,once you done it,please let me,then there will be a little.
         
         a
           | more...
-    .visiting
+    .visiting(ng-mouseenter="show5 = true" ng-mouseleave="show5 = false")
       h5
        | Visiting
 
-      p
+      p(ng-show="show5")
         | We need to get this live on the official site today,once you done it,please let me,then there will be a little.
         
         a

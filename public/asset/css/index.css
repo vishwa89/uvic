@@ -1,5 +1,6 @@
 #homepage .banner {
   background: url("../img/header.jpg") no-repeat center center fixed;
+  background-size: 100%;
   color: #fff;
   text-align: center;
   height: 916px;

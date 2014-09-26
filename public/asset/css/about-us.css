@@ -116,19 +116,22 @@
 #aboutUs .sidebar ul li.active a:focus {
   background-color: transparent;
 }
-#aboutUs .article {
+#aboutUs .about-us-article {
   margin-left: 5%;
 }
-#aboutUs .article h4 {
+#aboutUs .about-us-article h4 {
   font-size: 20pt;
   border-bottom: 1px solid #929497;
 }
-#aboutUs .article h4.date {
+#aboutUs .about-us-article h4.date {
   text-align: right;
 }
-#aboutUs .article p {
+#aboutUs .about-us-article p {
   font-size: 14pt;
 }
-#aboutUs .article .contact img {
+#aboutUs .about-us-article img {
+  width: 100%;
+}
+#aboutUs .about-us-article .contact img {
   width: 99%;
 }
