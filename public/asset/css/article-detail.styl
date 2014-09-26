@@ -1,4 +1,4 @@
-#articleIndex
+#articleDetail
 	.heading-tabs
 		border:0
 		height:22px
@@ -104,10 +104,9 @@
 				&.header
 					background-color:#282561
 					height:55px
-					padding-top:10px
+					padding-top:12px
 					border:0
 					border-bottom:2px solid #fff
-
 
 					.icons
 						height:25px
@@ -135,7 +134,11 @@
 							background-image:url("../img/icon4.png")
 							height:35px
 							vertical-align:-30%
-					
+							
+
+
+
+
 					a
 
 						color:#fff
@@ -156,28 +159,30 @@
 
 						&:hover,&:focus
 							background-color:transparent
-	.articles
+	.article
 		margin-left:5%
+		h4
+			font-size:20pt
+			border-bottom:1px solid #929497
+			&.date
+				text-align:right
 
+		p
+			font-size:14pt
 
-		.media
+		.paginate
+			border-top:1px dotted #929497
 			border-bottom:1px dotted #929497
-			height:180px
-			.heading
-				color:#929497
-				h4
-					margin-top:0
-					font-size:20pt
-					border-bottom:1px solid #929497
+			margin-top:10px
+			margin-bottom:10px
+			&.top
+				margin-top:0
+				border-top:0
+			li
 
-				p
-					font-size:16pt
-	.paginate
-		margin-top:20px
-		
-		li
-			a
-
-				font-size:12pt
-				color:#929497
-
+				a
+					font-size:14pt
+					color:#929497
+		.contact
+			img
+				width:99%

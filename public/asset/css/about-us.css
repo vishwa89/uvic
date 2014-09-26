@@ -1,0 +1,134 @@
+#aboutUs .heading-tabs {
+  border: 0;
+  height: 22px;
+  width: 90%;
+  margin-left: 5%;
+}
+#aboutUs .heading-tabs li {
+  padding: 0;
+  margin: 0;
+  width: 15%;
+  text-align: center;
+  border-right: 1px solid #929497;
+  height: 21px;
+}
+#aboutUs .heading-tabs li:first-child {
+  width: 19%;
+}
+#aboutUs .heading-tabs li:nth-child(4) .icons {
+  background-position: 30% 0;
+}
+#aboutUs .heading-tabs li:nth-child(5) .icons {
+  background-position: 63% 0;
+}
+#aboutUs .heading-tabs li:last-child {
+  border-right: 0;
+}
+#aboutUs .heading-tabs li:last-child .icons {
+  background-position: 100% 0;
+}
+#aboutUs .heading-tabs li a {
+  color: #929497;
+  font-size: 14pt;
+  line-height: 21px;
+}
+#aboutUs .heading-tabs li a:hover {
+  text-decoration: none;
+}
+#aboutUs .go-back {
+  font-size: 12pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #929497;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-top: 1px solid #929497;
+  border-bottom: 1px dotted #929497;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#aboutUs .go-back .breadcrumb {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background-color: transparent;
+}
+#aboutUs .go-back .breadcrumb li a {
+  font-size: 12pt;
+  color: #929497;
+}
+#aboutUs .go-back .breadcrumb li a:hover {
+  text-decoration: none;
+}
+#aboutUs .sidebar {
+  margin-left: 5%;
+  height: 700px;
+}
+#aboutUs .sidebar ul li {
+  margin: 0;
+  border-top: 1px dotted #929497;
+  font-size: 16pt;
+  padding: 0;
+  background-color: #f5f5f5;
+  height: 30px;
+}
+#aboutUs .sidebar ul li a {
+  color: #929497;
+  padding: 0;
+  padding-left: 5%;
+  display: inline-block;
+}
+#aboutUs .sidebar ul li a:hover,
+#aboutUs .sidebar ul li a:focus {
+  background-color: #f5f5f5;
+}
+#aboutUs .sidebar ul li.header {
+  background-color: #282561;
+  height: 55px;
+  padding-top: 12px;
+  border: 0;
+}
+#aboutUs .sidebar ul li.header .icons {
+  height: 25px;
+  width: 35px;
+  margin-left: 5%;
+}
+#aboutUs .sidebar ul li.header.uvic .icons {
+  background-image: url("../img/icon3.png");
+  height: 30px;
+}
+#aboutUs .sidebar ul li.header a {
+  color: #fff;
+  font-size: 16pt;
+}
+#aboutUs .sidebar ul li.header a:hover,
+#aboutUs .sidebar ul li.header a:focus {
+  background-color: #282561;
+}
+#aboutUs .sidebar ul li.active {
+  background-color: transparent;
+}
+#aboutUs .sidebar ul li.active a {
+  color: #282561;
+}
+#aboutUs .sidebar ul li.active a:hover,
+#aboutUs .sidebar ul li.active a:focus {
+  background-color: transparent;
+}
+#aboutUs .article {
+  margin-left: 5%;
+}
+#aboutUs .article h4 {
+  font-size: 20pt;
+  border-bottom: 1px solid #929497;
+}
+#aboutUs .article h4.date {
+  text-align: right;
+}
+#aboutUs .article p {
+  font-size: 14pt;
+}
+#aboutUs .article .contact img {
+  width: 99%;
+}

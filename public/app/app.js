@@ -9,12 +9,12 @@ uvic
 
 	$routeProvider
 	.when('/', { templateUrl: '/pages/index' })
+	.when('/about_us', { templateUrl: '/pages/about-us' })
 	.when('/immigration', { templateUrl: '/pages/immigration-home' })
 	.when('/immigration/student_visa', { templateUrl: '/pages/student-visa' })
 	.when('/education', { templateUrl: '/pages/education-home' })
-	.when('/education/articles', { templateUrl: '/pages/article-index' })
-	.when('/articles', { templateUrl: '/pages/articles' })
-	.when('/article-:id.html', { templateUrl: '/pages/article' })
+	.when('/articles', { templateUrl: '/pages/article-index' })
+	.when('/article-:id.html', { templateUrl: '/pages/article-id' })
 	.when('/search', { templateUrl: '/pages/search' })
 	.when('/courses', { templateUrl: '/pages/courses' });
 
