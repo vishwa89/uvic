@@ -2,7 +2,7 @@
   border: 0;
   height: 22px;
   width: 90%;
-  margin-left: 5%;
+  margin-left: 7%;
 }
 #articleDetail .heading-tabs li {
   padding: 0;
@@ -26,6 +26,22 @@
 }
 #articleDetail .heading-tabs li:last-child .icons {
   background-position: 100% 0;
+}
+#articleDetail .heading-tabs li.active:before {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: absolute;
+  top: 86px;
+  left: 16%;
+  font-size: 24px;
+  color: #282561;
+}
+#articleDetail .heading-tabs li.active a {
+  font-weight: 800;
+  color: #282561;
 }
 #articleDetail .heading-tabs li a {
   color: #929497;
@@ -64,6 +80,9 @@
 #articleDetail .sidebar {
   margin-left: 5%;
   height: 700px;
+}
+#articleDetail .sidebar.col-lg-2 {
+  width: 19%;
 }
 #articleDetail .sidebar ul li {
   margin: 0;
@@ -133,17 +152,20 @@
 }
 #articleDetail .sidebar ul li.active a {
   color: #282561;
+  font-weight: 800;
 }
 #articleDetail .sidebar ul li.active a:hover,
 #articleDetail .sidebar ul li.active a:focus {
   background-color: transparent;
 }
 #articleDetail .article {
-  margin-left: 5%;
+  margin-left: 3%;
 }
 #articleDetail .article h4 {
   font-size: 20pt;
   border-bottom: 1px solid #929497;
+  color: #282561;
+  font-weight: 800;
 }
 #articleDetail .article h4.date {
   text-align: right;
@@ -167,6 +189,10 @@
 #articleDetail .article .paginate li a {
   font-size: 14pt;
   color: #929497;
+}
+#articleDetail .article .paginate li a:hover,
+#articleDetail .article .paginate li a:focus {
+  text-decoration: none;
 }
 #articleDetail .article .contact img {
   width: 99%;

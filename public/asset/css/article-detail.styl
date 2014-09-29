@@ -3,7 +3,7 @@
 		border:0
 		height:22px
 		width: 90%
-		margin-left:5%
+		margin-left:7%
 		
 
 		li
@@ -34,7 +34,22 @@
 					
 				.icons
 					background-position: 100% 0
-
+			
+			&.active
+				&:before
+					content: "\f0d7"
+					font-family: FontAwesome
+					font-style: normal
+					font-weight: normal
+					text-decoration: inherit
+					position:absolute
+					top:86px
+					left:16%
+					font-size:24px
+					color:#282561
+				a
+					font-weight:800
+					color:#282561
 
 
 			a
@@ -75,6 +90,8 @@
 	.sidebar
 		margin-left:5%
 		height:700px
+		&.col-lg-2
+			width:19% 
 		
 		ul
 			
@@ -156,14 +173,16 @@
 
 					a
 						color:#282561
-
+						font-weight:800
 						&:hover,&:focus
 							background-color:transparent
 	.article
-		margin-left:5%
+		margin-left:3%
 		h4
 			font-size:20pt
 			border-bottom:1px solid #929497
+			color:#282561
+			font-weight:800
 			&.date
 				text-align:right
 
@@ -186,6 +205,12 @@
 				a
 					font-size:14pt
 					color:#929497
+
+
+					&:hover,&:focus
+						text-decoration:none
+
+
 		.contact
 			img
 				width:99%

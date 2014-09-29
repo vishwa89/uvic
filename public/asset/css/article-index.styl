@@ -3,7 +3,7 @@
 		border:0
 		height:22px
 		width: 90%
-		margin-left:5%
+		margin-left:7%
 		
 
 		li
@@ -34,6 +34,22 @@
 					
 				.icons
 					background-position: 100% 0
+			&.active
+				&:before
+					content: "\f0d7"
+					font-family: FontAwesome
+					font-style: normal
+					font-weight: normal
+					text-decoration: inherit
+					position:absolute
+					top:86px
+					left:16%
+					font-size:24px
+					color:#282561
+				a
+					font-weight:800
+					color:#282561
+
 
 
 
@@ -75,6 +91,9 @@
 	.sidebar
 		margin-left:5%
 		height:700px
+
+		&.col-lg-2
+			width:19% 
 		
 		ul
 			
@@ -152,17 +171,24 @@
 					background-color:transparent
 
 					a
-						color:#282561
+						font-weight:800
 
 						&:hover,&:focus
 							background-color:transparent
 	.articles
-		margin-left:5%
+		margin-left:3%
 
 
 		.media
 			border-bottom:1px dotted #929497
 			height:180px
+
+			.media-img
+				height:180px
+				img
+					width:96%
+					height:160px
+
 			.heading
 				color:#929497
 				h4
@@ -174,10 +200,19 @@
 					font-size:16pt
 	.paginate
 		margin-top:20px
+		padding-left:1%
 		
 		li
 			a
-
+				padding-left:3px
+				padding-right:3px
 				font-size:12pt
 				color:#929497
+
+				&:hover,&:focus
+					text-decoration:none
+
+			&.active
+				a
+					background-color:#282561
 

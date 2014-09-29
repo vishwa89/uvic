@@ -2,7 +2,7 @@
   ul.list-inline.heading-tabs
     li
       span.icons
-      a Visa Policy Articles
+      a Education Articles
     li
       span.icons
       a About UK
@@ -29,7 +29,10 @@
 
     .col-lg-6
       .level(ng-mouseenter="show1 = true" ng-mouseleave="show1 = false")
-        h2 Level
+       
+        h2 
+          span.icons
+          | Level
       
         .data(ng-show="show1")
           ul
@@ -80,7 +83,10 @@
                 | Visit
     .col-lg-6
       .subject(ng-mouseenter="show2 = true" ng-mouseleave="show2 = false")
-        h2 Subject
+       
+        h2 
+          span.icons
+          | Subject
         .data(ng-show="show2")
           ul
             li
@@ -135,7 +141,10 @@
 
     .col-lg-6
       .articles(ng-mouseenter="show3 = true" ng-mouseleave="show3 = false")
-        h2 Recommended Articles
+        
+        h2 
+          span.icons
+          | Recommended Articles
         .data(ng-show="show3")
           ul
             li
@@ -153,7 +162,10 @@
           
     .col-lg-6
       .success(ng-mouseenter="show4 = true" ng-mouseleave="show4 = false")
-        h2 Sucessful Cases
+        
+        h2 
+          span.icons
+          | Sucessful Cases
         .data(ng-show="show4")
           ul
             li

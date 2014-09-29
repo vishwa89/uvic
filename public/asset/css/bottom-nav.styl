@@ -1,16 +1,17 @@
-footer
+.footer
+	
 	position:absolute
 	bottom:0
 	width:100%
 	height: 60px
 	background-color: #fff
+	
 
-	&> .container
-		width:100%
-		border-top: 1px solid #000
+ 	.container
+		border-top:1px solid #929497
+		padding:0
 		padding-top: 10px
-		padding-right: 30px
-		padding-left: 30px
+		
 
 	.info-tab
 		height:14pt
@@ -21,13 +22,17 @@ footer
 			&:first-child,&:nth-child(2)
 				border-left:0
 
-	li
-		font-size:14pt
-		height:16pt
-		color:#6D6E70
-
-		a
+		li
 			font-size:14pt
-			padding-top: 0
-			margin-top: 0
+			height:16pt
 			color:#6D6E70
+
+			a
+				font-size:14pt
+				padding-top: 0
+				margin-top: 0
+				color:#6D6E70
+
+				&:hover,&:focus
+					text-decoration:none
+					color:#6D6E70

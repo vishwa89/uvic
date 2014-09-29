@@ -1,0 +1,205 @@
+#ukArticleDetail .heading-tabs {
+  border: 0;
+  height: 22px;
+  width: 90%;
+  margin-left: 7%;
+}
+#ukArticleDetail .heading-tabs.bottom {
+  margin-top: 20px;
+  height: 50px;
+  padding-top: 15px;
+  margin-bottom: -60px;
+  border-top: 1px solid #929497;
+  width: 1170px;
+  margin-left: 60px;
+}
+#ukArticleDetail .heading-tabs.bottom li.active:before {
+  top: 94.3%;
+  left: 43%;
+}
+#ukArticleDetail .heading-tabs li {
+  padding: 0;
+  margin: 0;
+  width: 15%;
+  text-align: center;
+  border-right: 1px solid #929497;
+  height: 21px;
+}
+#ukArticleDetail .heading-tabs li:first-child {
+  width: 19%;
+}
+#ukArticleDetail .heading-tabs li:nth-child(4) .icons {
+  background-position: 30% 0;
+}
+#ukArticleDetail .heading-tabs li:nth-child(5) .icons {
+  background-position: 63% 0;
+}
+#ukArticleDetail .heading-tabs li:last-child {
+  border-right: 0;
+}
+#ukArticleDetail .heading-tabs li:last-child .icons {
+  background-position: 100% 0;
+}
+#ukArticleDetail .heading-tabs li.active:before {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: absolute;
+  top: 86px;
+  left: 45%;
+  font-size: 24px;
+  color: #282561;
+}
+#ukArticleDetail .heading-tabs li.active a {
+  font-weight: 800;
+  color: #282561;
+}
+#ukArticleDetail .heading-tabs li a {
+  color: #929497;
+  font-size: 14pt;
+  line-height: 21px;
+}
+#ukArticleDetail .heading-tabs li a:hover {
+  text-decoration: none;
+}
+#ukArticleDetail .go-back {
+  font-size: 12pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #929497;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-top: 1px solid #929497;
+  border-bottom: 1px dotted #929497;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#ukArticleDetail .go-back .breadcrumb {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background-color: transparent;
+}
+#ukArticleDetail .go-back .breadcrumb li a {
+  font-size: 12pt;
+  color: #929497;
+}
+#ukArticleDetail .go-back .breadcrumb li a:hover {
+  text-decoration: none;
+}
+#ukArticleDetail .sidebar {
+  margin-left: 5%;
+  height: 700px;
+}
+#ukArticleDetail .sidebar.col-lg-2 {
+  width: 19%;
+}
+#ukArticleDetail .sidebar ul li {
+  margin: 0;
+  border-top: 1px dotted #929497;
+  font-size: 16pt;
+  padding: 0;
+  background-color: #f5f5f5;
+  height: 30px;
+}
+#ukArticleDetail .sidebar ul li a {
+  color: #929497;
+  padding: 0;
+  padding-left: 5%;
+  display: inline-block;
+}
+#ukArticleDetail .sidebar ul li a:hover,
+#ukArticleDetail .sidebar ul li a:focus {
+  background-color: #f5f5f5;
+}
+#ukArticleDetail .sidebar ul li:nth-child(2) {
+  border: 0;
+}
+#ukArticleDetail .sidebar ul li.header {
+  background-color: #929497;
+  height: 55px;
+  padding-top: 12px;
+  border: 0;
+}
+#ukArticleDetail .sidebar ul li.header.active {
+  background-color: #888;
+}
+#ukArticleDetail .sidebar ul li.header .icons {
+  height: 25px;
+  width: 35px;
+  margin-left: 5%;
+}
+#ukArticleDetail .sidebar ul li.header.registration .icons {
+  background-image: url("../img/icon5.png");
+}
+#ukArticleDetail .sidebar ul li.header.financial .icons {
+  background-image: url("../img/icon.png");
+}
+#ukArticleDetail .sidebar ul li.header.accommodation .icons {
+  background-image: url("../img/icon2.png");
+  height: 28px;
+}
+#ukArticleDetail .sidebar ul li.header.uk-diary .icons {
+  background-image: url("../img/icon3.png");
+  height: 30px;
+}
+#ukArticleDetail .sidebar ul li.header a {
+  color: #fff;
+  font-size: 16pt;
+}
+#ukArticleDetail .sidebar ul li.header a:hover,
+#ukArticleDetail .sidebar ul li.header a:focus {
+  background-color: #929497;
+}
+#ukArticleDetail .sidebar ul li.active {
+  background-color: transparent;
+}
+#ukArticleDetail .sidebar ul li.active a {
+  font-weight: 800;
+}
+#ukArticleDetail .sidebar ul li.active a:hover,
+#ukArticleDetail .sidebar ul li.active a:focus {
+  background-color: transparent;
+}
+#ukArticleDetail .article {
+  margin-left: 3%;
+}
+#ukArticleDetail .article h4 {
+  font-size: 20pt;
+  border-bottom: 1px solid #929497;
+  color: #282561;
+  font-weight: 800;
+}
+#ukArticleDetail .article h4.date {
+  text-align: right;
+}
+#ukArticleDetail .article img {
+  width: 100%;
+}
+#ukArticleDetail .article p {
+  font-size: 14pt;
+}
+#ukArticleDetail .article .paginate {
+  border-top: 1px dotted #929497;
+  border-bottom: 1px dotted #929497;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#ukArticleDetail .article .paginate.top {
+  margin-top: 0;
+  border-top: 0;
+}
+#ukArticleDetail .article .paginate li a {
+  font-size: 14pt;
+  color: #929497;
+}
+#ukArticleDetail .article .paginate li a:hover,
+#ukArticleDetail .article .paginate li a:focus {
+  text-decoration: none;
+}
+#ukArticleDetail .article .contact img {
+  width: 99%;
+}

@@ -1,30 +1,82 @@
 #studentVisa {
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 10%;
+}
+#studentVisa .heading-tabs {
+  border: 0;
+  height: 22px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+#studentVisa .heading-tabs li {
+  padding: 0;
+  margin: 0;
+  width: 15%;
+  text-align: center;
+  border-right: 1px solid #929497;
+  height: 21px;
+}
+#studentVisa .heading-tabs li:nth-child(1) {
+  width: 19%;
+}
+#studentVisa .heading-tabs li:nth-child(4) .icons {
+  background-position: 30% 0;
+}
+#studentVisa .heading-tabs li:nth-child(5) .icons {
+  background-position: 63% 0;
+}
+#studentVisa .heading-tabs li:last-child {
+  border-right: 0;
+}
+#studentVisa .heading-tabs li:last-child .icons {
+  background-position: 100% 0;
+}
+#studentVisa .heading-tabs li a {
+  color: #929497;
+  font-size: 14pt;
+  line-height: 21px;
+}
+#studentVisa .heading-tabs li a:hover {
+  text-decoration: none;
 }
 #studentVisa h3 {
   margin-top: 0;
   padding-top: 20px;
+  padding-bottom: 10px;
   font-size: 16pt;
-  font-weight: 600;
-  border-top: 1px solid #929497;
+  color: #262261;
+  border-bottom: 1px solid #929497;
 }
 #studentVisa .sidebar {
-  margin-right: 5%;
+  min-height: 750px;
+  border-top: 1px solid #929497;
+}
+#studentVisa .sidebar h3 {
+  font-weight: 800;
 }
 #studentVisa .sidebar ul {
-  border-top: 1px solid #929497;
-  padding-top: 20px;
   border-bottom: 0;
 }
 #studentVisa .sidebar ul li {
   padding: 5px;
+  padding-left: 10px;
   margin: 0;
 }
-#studentVisa .sidebar ul li.header {
-  color: #fff;
-  background-color: #929497;
+#studentVisa .sidebar ul li.active {
+  background-color: #262261;
   font-size: 14pt;
+  margin: 0;
+}
+#studentVisa .sidebar ul li.active a {
+  background-color: #262261;
+  color: #fff;
+}
+#studentVisa .sidebar ul li.active a:hover,
+#studentVisa .sidebar ul li.active a:focus {
+  border: 0;
+  outline: 0;
+  background-color: #262261;
+  border-radius: 0;
+  padding: 5px;
   margin: 0;
 }
 #studentVisa .sidebar ul li a {
@@ -45,8 +97,33 @@
   padding: 5px;
   margin: 0;
 }
-#studentVisa .sidebar ul li.active a {
-  border: 0;
-  color: #000;
+#studentVisa .sidebar .categories-content {
+  border-top: 2px solid #929497;
+  padding-top: 5px;
+}
+#studentVisa .sidebar .categories-content h3 {
+  background-color: #929497;
+  color: #fff;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+#studentVisa .sidebar .categories-content ul {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#studentVisa .sidebar .categories-content ul li {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px solid #929497;
+}
+#studentVisa .sidebar .categories-content ul li.active {
   background-color: transparent;
+}
+#studentVisa .sidebar .categories-content ul li.active a {
+  background-color: transparent;
+  color: #262261;
+}
+#studentVisa .content {
+  padding-left: 2%;
+  border-top: 1px solid #929497;
 }

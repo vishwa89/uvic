@@ -14,7 +14,9 @@ uvic
 	.when('/immigration/student_visa', { templateUrl: '/pages/student-visa' })
 	.when('/education', { templateUrl: '/pages/education-home' })
 	.when('/articles', { templateUrl: '/pages/article-index' })
+	.when('/uk-articles', { templateUrl: '/pages/uk-article-index' })
 	.when('/article-:id.html', { templateUrl: '/pages/article-id' })
+	.when('/uk-article-:id.html', { templateUrl: '/pages/uk-article-id' })
 	.when('/search', { templateUrl: '/pages/search' })
 	.when('/courses', { templateUrl: '/pages/courses' });
 

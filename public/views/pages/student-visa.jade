@@ -1,61 +1,213 @@
 #studentVisa
-  h3  
-   | Student Visas
-  .col-lg-4.sidebar
+  ul.list-inline.heading-tabs
+    li
+      span.icons
+      a Visa Policy Articles
+    li
+      span.icons
+      a About UK
+    li
+      span.icons
+      a Life in the UK
+    li
+      span.icons
+      a English Test
+    li
+      span.icons
+      a Pre-departure
+    li
+      span.icons
+      a Jobs &#38; Career
+  
+  .col-lg-3.sidebar
+    h3  
+      | Visa Categories
     ul.nav.nav-stacked.nav-tabs
-      li.header
-        | Student Visitor Visa
       li.active
-        a(href="#overview" data-toggle="tab")
-          | 1.Overview
+        a(href="#visiting" data-toggle="tab")
+          | Visiting
       li
-        a(href="#eligibility" data-toggle="tab")
-          | 2.Eligibility
+        a(href="#student" data-toggle="tab")
+          | Student
       li
-        a(href="#document" data-toggle="tab")
-          | 3.Document You must provide
+        a(href="#work" data-toggle="tab")
+          | Work
       li
-        a(href="#apply" data-toggle="tab")
-          | 4.Apply
+        a(href="#immigration" data-toggle="tab")
+          | Immigration
+      li
+        a(href="#citizenship" data-toggle="tab")
+          | Citizenship
 
       li
-        a(href="#child" data-toggle="tab")
-          | Tier 4 (child) student visa
+        a(href="#family" data-toggle="tab")
+          | Family
+    .tab-content.categories-content
 
-
-      li
-        a(href="#general" data-toggle="tab")
-          | Tier 4 (General) student visa
-
-  .col-lg-7
+      #visiting.tab-pane.active.in
+        h3  
+          | Visiting Visa related articles
+        ul.nav-stacked.nav-tabs
+          li.active
+            a(href="#article1" data-toggle="tab")
+              | Visiting
+          li
+            a(href="#article2" data-toggle="tab")
+              | Student
+          li
+            a(href="#article3" data-toggle="tab")
+              | Work
+          li
+            a(href="#article4" data-toggle="tab")
+              | Immigration
+          li
+            a(href="#article5" data-toggle="tab")
+              | Citizenship
+          li
+            a(href="#article6" data-toggle="tab")
+              | Family
+      #student.tab-pane
+        h3  
+          | Student Visa related articles
+        ul.nav-stacked.nav-tabs
+          li.active
+            a(href="#article1" data-toggle="tab")
+              | Visiting
+          li
+            a(href="#article2" data-toggle="tab")
+              | Student
+          li
+            a(href="#article3" data-toggle="tab")
+              | Work
+          li
+            a(href="#article4" data-toggle="tab")
+              | Immigration
+          li
+            a(href="#article5" data-toggle="tab")
+              | Citizenship
+          li
+            a(href="#article6" data-toggle="tab")
+              | Family
+      #work.tab-pane
+        h3  
+          | Work Visa related articles
+        ul.nav-stacked.nav-tabs
+          li.active
+            a(href="#article1" data-toggle="tab")
+              | Visiting
+          li
+            a(href="#article2" data-toggle="tab")
+              | Student
+          li
+            a(href="#article3" data-toggle="tab")
+              | Work
+          li
+            a(href="#article4" data-toggle="tab")
+              | Immigration
+          li
+            a(href="#article5" data-toggle="tab")
+              | Citizenship
+          li
+            a(href="#article6" data-toggle="tab")
+              | Family
+      #immigration.tab-pane
+        h3  
+          | Immigraton Visa related articles
+        ul.nav-stacked.nav-tabs
+          li.active
+            a(href="#article1" data-toggle="tab")
+              | Visiting
+          li
+            a(href="#article2" data-toggle="tab")
+              | Student
+          li
+            a(href="#article3" data-toggle="tab")
+              | Work
+          li
+            a(href="#article4" data-toggle="tab")
+              | Immigration
+          li
+            a(href="#article5" data-toggle="tab")
+              | Citizenship
+          li
+            a(href="#article6" data-toggle="tab")
+              | Family
+      #citizenship.tab-pane
+        h3  
+          | Citizenship Visa related articles
+        ul.nav-stacked.nav-tabs
+          li.active
+            a(href="#article1" data-toggle="tab")
+              | Visiting
+          li
+            a(href="#article2" data-toggle="tab")
+              | Student
+          li
+            a(href="#article3" data-toggle="tab")
+              | Work
+          li
+            a(href="#article4" data-toggle="tab")
+              | Immigration
+          li
+            a(href="#article5" data-toggle="tab")
+              | Citizenship
+          li
+            a(href="#article6" data-toggle="tab")
+              | Family
+      #family.tab-pane
+        h3  
+          | Family Visa related articles
+        ul.nav-stacked.nav-tabs
+          li.active.in
+            a(href="#article1" data-toggle="tab")
+              | Visiting
+          li
+            a(href="#article2" data-toggle="tab")
+              | Student
+          li
+            a(href="#article3" data-toggle="tab")
+              | Work
+          li
+            a(href="#article4" data-toggle="tab")
+              | Immigration
+          li
+            a(href="#article5" data-toggle="tab")
+              | Citizenship
+          li
+            a(href="#article6" data-toggle="tab")
+              | Family
+      
+  .col-lg-6.content
+    h3  
+      | General Information
     .tab-content
-      .tab-pane#overview.active
-        h3
+      .tab-pane#article1.active.in
+        h4
           | 1.Overview
         p
           | You can apply for a student visa if:
-      .tab-pane#eligibility
-        h3
+      .tab-pane#article2
+        h4
           | 2.Eligibility
         p
           | You can apply for a student visa if:
-      .tab-pane#document
-        h3
+      .tab-pane#article3
+        h4
           | 3.Documents you must provide
         p
           | You can apply for a student visa if:
-      .tab-pane#apply
-        h3
+      .tab-pane#article4
+        h4
           | 4.Apply
         p
           | You can apply for a student visa if:
-      .tab-pane#child
-        h3
+      .tab-pane#article5
+        h4
           | Tier 4 (child) student visa
         p
           | You can apply for a student visa if:
-      .tab-pane#general
-        h3
+      .tab-pane#article6
+        h4
           | Tier 4 (General) student visa
         p
           | You can apply for a student visa if:
