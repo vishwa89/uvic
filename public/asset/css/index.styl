@@ -1,26 +1,32 @@
 #homepage
 	.heading-tabs
 		border:0
-		height:30px
+		height:40px
 		width: 90%
 		margin-left:5%
 		margin-right:5%
+		padding:0
 		
 
 		li
 			padding: 0
-			margin: 0
+			margin: -2px
 			width:20%
 			text-align: center
-			border-right:1px solid #929497
-			height:21px
+			height:42px
+			padding-top:10px
 
 
-			
+			&:nth-child(2)
+				.icons
+					background-image:url('../img/lifeinuk.png')
+					height:23px
+					width:23px
 
 			&:nth-child(3)
 				.icons
 					background-position: 30% 0
+
 
 
 			&:nth-child(4)
@@ -37,27 +43,28 @@
 					
 				.icons
 					background-position: 100% 0
+				a
+					border-right:0 !important
 
-			&.active
-				&:before
-					content: "\f0d7"
-					font-family: FontAwesome
-					font-style: normal
-					font-weight: normal
-					text-decoration: inherit
-					position:absolute
-					top:86px
-					left:14%
-					font-size:24px
+			&.active,&:hover,&:focus
+				background-image:url('../img/down_arrow.png')
+				background-repeat:no-repeat	
+				background-position:49% 1%
+
+				&:nth-child(2)
+					background-position:45% 7%
+
 				a
 					font-weight:800
+					
 
 
 			a
 				color:#929497
 				font-size:14pt
 				line-height: 21px
-
+				border-right:1px solid #929497
+				padding-right:19%
 
 
 				&:hover

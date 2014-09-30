@@ -1,22 +1,35 @@
 #immigrationHomepage
 	.heading-tabs
 		border:0
-		height:22px
-		width: 80%
-		margin-left:10%
+		height:40px
+		width: 90%
+		margin-left:7%
 		
 
 		li
 			padding: 0
-			margin: 0
+			margin: -2px
 			width:15%
 			text-align: center
-			border-right:1px solid #929497
-			height:21px
+			height:42px
+			padding-top:10px
 
 
 			&:nth-child(1)
 				width:19%
+				.icons
+					background-image:url('../img/visa_policy_icon.png')
+					height:22px
+					width:30px
+
+				a
+					padding-right:5% !important 
+
+			&:nth-child(3)
+				.icons
+					background-image:url('../img/lifeinuk.png')
+					height:23px
+					width:23px
 
 			&:nth-child(4)
 				.icons
@@ -25,13 +38,32 @@
 			&:nth-child(5)
 				.icons
 					background-position: 63% 0
+				a
+					padding-right:5% !important
 	
 
 			&:last-child
 				border-right:0
-					
+				width:17%
 				.icons
 					background-position: 100% 0
+
+				a
+					border-right:0 !important
+
+			&.active,&:hover,&:focus
+				background-image:url('../img/down_arrow.png')
+				background-repeat:no-repeat	
+				background-position:49% 1%
+
+				&:nth-child(1)
+					background-position:45% 4%
+
+				&:nth-child(3)
+					background-position:45% 7%
+
+				a
+					font-weight:800
 
 
 
@@ -39,6 +71,10 @@
 				color:#929497
 				font-size:14pt
 				line-height: 21px
+				border-right:1px solid #929497
+				padding-right:8%
+
+
 
 
 
@@ -74,6 +110,7 @@
 			margin-left:10px
 			width:15%
 			float:left
+			
 
 
 
@@ -105,10 +142,12 @@
 		
 		.student
 			background:url('../img/student.jpg') no-repeat
+			background-size:100% 100%
 			position:relative
 			
 		.family
 			background:url('../img/family.jpg') no-repeat
+			background-size:100% 100%
 			position:relative
 			
 			
@@ -116,22 +155,26 @@
 
 		.immigration
 			background:url('../img/immigration.jpg') no-repeat
+			background-size:100% 100%
 			position:relative
 			
 			
 		.citizenship
-			background:url('../img/eu.jpg') no-repeat
+			background:url('../img/citizenship.jpg') no-repeat
+			background-size:100% 100%
 			position:relative
 			
 		
 
 		.work
 			background:url('../img/work.jpg') no-repeat
+			background-size:100% 100%
 			position:relative
 			
 			
 		.visiting
 			background:url('../img/visiting.jpg') no-repeat
+			background-size:100% 100%
 			position:relative
 			margin-left:0
 			
@@ -202,6 +245,7 @@
 		margin-right:3%
 		height:400px
 		margin-bottom:-61px
+		
 
 
 		.header
@@ -217,10 +261,20 @@
 			padding-top:5px
 
 		.faq-bg,.policy-bg,.qa-bg
-			background-image:url("../img/banner.jpg")
+			background-image:url("../img/FAQ.png")
 			background-repeat:no-repeat
 			background-size:99% 100%
 			height:400px
+
+		.policy-bg
+			background-image:url("../img/latest_policy.jpg")
+			.header
+				margin-bottom:10px
+			
+		.qa-bg
+			background-image:url("../img/why_uvic.png")
+			
+
 
 		.icons
 			background-image:url("../img/icon3.png")

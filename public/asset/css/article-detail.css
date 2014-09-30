@@ -1,19 +1,32 @@
 #articleDetail .heading-tabs {
   border: 0;
-  height: 22px;
+  height: 40px;
   width: 90%;
   margin-left: 7%;
 }
 #articleDetail .heading-tabs li {
   padding: 0;
-  margin: 0;
+  margin: -2px;
   width: 15%;
   text-align: center;
-  border-right: 1px solid #929497;
-  height: 21px;
+  height: 42px;
+  padding-top: 10px;
 }
-#articleDetail .heading-tabs li:first-child {
+#articleDetail .heading-tabs li:nth-child(1) {
   width: 19%;
+}
+#articleDetail .heading-tabs li:nth-child(1) .icons {
+  background-image: url("../img/visa_policy_icon.png");
+  height: 22px;
+  width: 30px;
+}
+#articleDetail .heading-tabs li:nth-child(1) a {
+  padding-right: 5% !important;
+}
+#articleDetail .heading-tabs li:nth-child(3) .icons {
+  background-image: url("../img/lifeinuk.png");
+  height: 23px;
+  width: 23px;
 }
 #articleDetail .heading-tabs li:nth-child(4) .icons {
   background-position: 30% 0;
@@ -21,32 +34,47 @@
 #articleDetail .heading-tabs li:nth-child(5) .icons {
   background-position: 63% 0;
 }
+#articleDetail .heading-tabs li:nth-child(5) a {
+  padding-right: 5% !important;
+}
 #articleDetail .heading-tabs li:last-child {
   border-right: 0;
+  width: 17%;
 }
 #articleDetail .heading-tabs li:last-child .icons {
   background-position: 100% 0;
 }
-#articleDetail .heading-tabs li.active:before {
-  content: "\f0d7";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  position: absolute;
-  top: 86px;
-  left: 16%;
-  font-size: 24px;
-  color: #282561;
+#articleDetail .heading-tabs li:last-child a {
+  border-right: 0 !important;
 }
-#articleDetail .heading-tabs li.active a {
+#articleDetail .heading-tabs li.active,
+#articleDetail .heading-tabs li:hover,
+#articleDetail .heading-tabs li:focus {
+  background-image: url("../img/down_arrow.png");
+  background-repeat: no-repeat;
+  background-position: 49% 1%;
+}
+#articleDetail .heading-tabs li.active:nth-child(1),
+#articleDetail .heading-tabs li:hover:nth-child(1),
+#articleDetail .heading-tabs li:focus:nth-child(1) {
+  background-position: 45% 4%;
+}
+#articleDetail .heading-tabs li.active:nth-child(3),
+#articleDetail .heading-tabs li:hover:nth-child(3),
+#articleDetail .heading-tabs li:focus:nth-child(3) {
+  background-position: 45% 7%;
+}
+#articleDetail .heading-tabs li.active a,
+#articleDetail .heading-tabs li:hover a,
+#articleDetail .heading-tabs li:focus a {
   font-weight: 800;
-  color: #282561;
 }
 #articleDetail .heading-tabs li a {
   color: #929497;
   font-size: 14pt;
   line-height: 21px;
+  border-right: 1px solid #929497;
+  padding-right: 8%;
 }
 #articleDetail .heading-tabs li a:hover {
   text-decoration: none;
@@ -56,7 +84,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   color: #929497;
-  margin-top: 15px;
+  margin-top: 0;
   margin-bottom: 10px;
   border-top: 1px solid #929497;
   border-bottom: 1px dotted #929497;
@@ -82,7 +110,7 @@
   height: 700px;
 }
 #articleDetail .sidebar.col-lg-2 {
-  width: 19%;
+  width: 20.4%;
 }
 #articleDetail .sidebar ul li {
   margin: 0;

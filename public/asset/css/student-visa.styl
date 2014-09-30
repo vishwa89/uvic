@@ -1,24 +1,37 @@
 #studentVisa
-	margin-left:10%
+	margin-left:7%
 	.heading-tabs
 		border:0
-		height:22px
-		width: 80%
+		height:40px
+		width: 90%
 		margin-bottom:10px
 		
 		
 
 		li
 			padding: 0
-			margin: 0
+			margin: -2px
 			width:15%
 			text-align: center
-			border-right:1px solid #929497
-			height:21px
+			height:42px
+			padding-top:10px
+
 
 
 			&:nth-child(1)
 				width:19%
+				.icons
+					background-image:url('../img/visa_policy_icon.png')
+					height:22px
+					width:30px
+				a
+					padding-right:5% !important 
+
+			&:nth-child(3)
+				.icons
+					background-image:url('../img/lifeinuk.png')
+					height:23px
+					width:23px
 
 			&:nth-child(4)
 				.icons
@@ -31,9 +44,26 @@
 
 			&:last-child
 				border-right:0
-					
+				width:17%
 				.icons
 					background-position: 100% 0
+
+				a
+					border-right:0 !important
+
+			&.active,&:hover,&:focus
+				background-image:url('../img/down_arrow.png')
+				background-repeat:no-repeat	
+				background-position:49% 1%
+
+				&:nth-child(1)
+					background-position:45% 4%
+
+				&:nth-child(3)
+					background-position:45% 7%
+
+				a
+					font-weight:800
 
 
 
@@ -41,6 +71,8 @@
 				color:#929497
 				font-size:14pt
 				line-height: 21px
+				border-right:1px solid #929497
+				padding-right:8%
 
 
 
@@ -87,8 +119,15 @@
 							border-radius:0
 							padding:5px
 							margin:0
+					.icons
+						display:inline-block
+						background-image:url('../img/tick.png')
+						float:right
+						margin-top:2%
 
 
+				.icons
+					display:none
 				a
 					font-size:14pt
 					color:#929497
@@ -97,6 +136,7 @@
 					border-radius:0
 					outline:0
 					border:0
+					display:inline-block
 						
 
 					&:hover,&:focus

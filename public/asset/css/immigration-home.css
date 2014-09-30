@@ -1,19 +1,32 @@
 #immigrationHomepage .heading-tabs {
   border: 0;
-  height: 22px;
-  width: 80%;
-  margin-left: 10%;
+  height: 40px;
+  width: 90%;
+  margin-left: 7%;
 }
 #immigrationHomepage .heading-tabs li {
   padding: 0;
-  margin: 0;
+  margin: -2px;
   width: 15%;
   text-align: center;
-  border-right: 1px solid #929497;
-  height: 21px;
+  height: 42px;
+  padding-top: 10px;
 }
 #immigrationHomepage .heading-tabs li:nth-child(1) {
   width: 19%;
+}
+#immigrationHomepage .heading-tabs li:nth-child(1) .icons {
+  background-image: url("../img/visa_policy_icon.png");
+  height: 22px;
+  width: 30px;
+}
+#immigrationHomepage .heading-tabs li:nth-child(1) a {
+  padding-right: 5% !important;
+}
+#immigrationHomepage .heading-tabs li:nth-child(3) .icons {
+  background-image: url("../img/lifeinuk.png");
+  height: 23px;
+  width: 23px;
 }
 #immigrationHomepage .heading-tabs li:nth-child(4) .icons {
   background-position: 30% 0;
@@ -21,16 +34,47 @@
 #immigrationHomepage .heading-tabs li:nth-child(5) .icons {
   background-position: 63% 0;
 }
+#immigrationHomepage .heading-tabs li:nth-child(5) a {
+  padding-right: 5% !important;
+}
 #immigrationHomepage .heading-tabs li:last-child {
   border-right: 0;
+  width: 17%;
 }
 #immigrationHomepage .heading-tabs li:last-child .icons {
   background-position: 100% 0;
+}
+#immigrationHomepage .heading-tabs li:last-child a {
+  border-right: 0 !important;
+}
+#immigrationHomepage .heading-tabs li.active,
+#immigrationHomepage .heading-tabs li:hover,
+#immigrationHomepage .heading-tabs li:focus {
+  background-image: url("../img/down_arrow.png");
+  background-repeat: no-repeat;
+  background-position: 49% 1%;
+}
+#immigrationHomepage .heading-tabs li.active:nth-child(1),
+#immigrationHomepage .heading-tabs li:hover:nth-child(1),
+#immigrationHomepage .heading-tabs li:focus:nth-child(1) {
+  background-position: 45% 4%;
+}
+#immigrationHomepage .heading-tabs li.active:nth-child(3),
+#immigrationHomepage .heading-tabs li:hover:nth-child(3),
+#immigrationHomepage .heading-tabs li:focus:nth-child(3) {
+  background-position: 45% 7%;
+}
+#immigrationHomepage .heading-tabs li.active a,
+#immigrationHomepage .heading-tabs li:hover a,
+#immigrationHomepage .heading-tabs li:focus a {
+  font-weight: 800;
 }
 #immigrationHomepage .heading-tabs li a {
   color: #929497;
   font-size: 14pt;
   line-height: 21px;
+  border-right: 1px solid #929497;
+  padding-right: 8%;
 }
 #immigrationHomepage .heading-tabs li a:hover {
   text-decoration: none;
@@ -95,26 +139,32 @@
 }
 #immigrationHomepage .categories .student {
   background: url("../img/student.jpg") no-repeat;
+  background-size: 100% 100%;
   position: relative;
 }
 #immigrationHomepage .categories .family {
   background: url("../img/family.jpg") no-repeat;
+  background-size: 100% 100%;
   position: relative;
 }
 #immigrationHomepage .categories .immigration {
   background: url("../img/immigration.jpg") no-repeat;
+  background-size: 100% 100%;
   position: relative;
 }
 #immigrationHomepage .categories .citizenship {
-  background: url("../img/eu.jpg") no-repeat;
+  background: url("../img/citizenship.jpg") no-repeat;
+  background-size: 100% 100%;
   position: relative;
 }
 #immigrationHomepage .categories .work {
   background: url("../img/work.jpg") no-repeat;
+  background-size: 100% 100%;
   position: relative;
 }
 #immigrationHomepage .categories .visiting {
   background: url("../img/visiting.jpg") no-repeat;
+  background-size: 100% 100%;
   position: relative;
   margin-left: 0;
 }
@@ -196,10 +246,19 @@
 #immigrationHomepage .process-info .faq-bg,
 #immigrationHomepage .process-info .policy-bg,
 #immigrationHomepage .process-info .qa-bg {
-  background-image: url("../img/banner.jpg");
+  background-image: url("../img/FAQ.png");
   background-repeat: no-repeat;
   background-size: 99% 100%;
   height: 400px;
+}
+#immigrationHomepage .process-info .policy-bg {
+  background-image: url("../img/latest_policy.jpg");
+}
+#immigrationHomepage .process-info .policy-bg .header {
+  margin-bottom: 10px;
+}
+#immigrationHomepage .process-info .qa-bg {
+  background-image: url("../img/why_uvic.png");
 }
 #immigrationHomepage .process-info .icons {
   background-image: url("../img/icon3.png");

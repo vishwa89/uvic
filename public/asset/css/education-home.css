@@ -1,19 +1,32 @@
 #educationHomepage .heading-tabs {
   border: 0;
-  height: 22px;
+  height: 40px;
   width: 90%;
   margin-left: 5%;
 }
 #educationHomepage .heading-tabs li {
   padding: 0;
-  margin: 0;
+  margin: -2px;
   width: 15%;
   text-align: center;
-  border-right: 1px solid #929497;
-  height: 21px;
+  height: 42px;
+  padding-top: 10px;
 }
-#educationHomepage .heading-tabs li:first-child {
+#educationHomepage .heading-tabs li:nth-child(1) {
   width: 19%;
+}
+#educationHomepage .heading-tabs li:nth-child(1) .icons {
+  background-image: url("../img/visa_policy_icon.png");
+  height: 22px;
+  width: 30px;
+}
+#educationHomepage .heading-tabs li:nth-child(1) a {
+  padding-right: 5% !important;
+}
+#educationHomepage .heading-tabs li:nth-child(3) .icons {
+  background-image: url("../img/lifeinuk.png");
+  height: 23px;
+  width: 23px;
 }
 #educationHomepage .heading-tabs li:nth-child(4) .icons {
   background-position: 30% 0;
@@ -21,22 +34,53 @@
 #educationHomepage .heading-tabs li:nth-child(5) .icons {
   background-position: 63% 0;
 }
+#educationHomepage .heading-tabs li:nth-child(5) a {
+  padding-right: 5% !important;
+}
 #educationHomepage .heading-tabs li:last-child {
   border-right: 0;
+  width: 17%;
 }
 #educationHomepage .heading-tabs li:last-child .icons {
   background-position: 100% 0;
+}
+#educationHomepage .heading-tabs li:last-child a {
+  border-right: 0 !important;
+}
+#educationHomepage .heading-tabs li.active,
+#educationHomepage .heading-tabs li:hover,
+#educationHomepage .heading-tabs li:focus {
+  background-image: url("../img/down_arrow.png");
+  background-repeat: no-repeat;
+  background-position: 49% 1%;
+}
+#educationHomepage .heading-tabs li.active:nth-child(1),
+#educationHomepage .heading-tabs li:hover:nth-child(1),
+#educationHomepage .heading-tabs li:focus:nth-child(1) {
+  background-position: 45% 4%;
+}
+#educationHomepage .heading-tabs li.active:nth-child(3),
+#educationHomepage .heading-tabs li:hover:nth-child(3),
+#educationHomepage .heading-tabs li:focus:nth-child(3) {
+  background-position: 45% 7%;
+}
+#educationHomepage .heading-tabs li.active a,
+#educationHomepage .heading-tabs li:hover a,
+#educationHomepage .heading-tabs li:focus a {
+  font-weight: 800;
 }
 #educationHomepage .heading-tabs li a {
   color: #929497;
   font-size: 14pt;
   line-height: 21px;
+  border-right: 1px solid #929497;
+  padding-right: 8%;
 }
 #educationHomepage .heading-tabs li a:hover {
   text-decoration: none;
 }
 #educationHomepage .banner {
-  background: url("../img/eduhome-01.jpg") no-repeat;
+  background: url("../img/banner.jpg") no-repeat;
   height: 350px;
   background-size: 100%;
 }

@@ -1,22 +1,34 @@
 #articleIndex
 	.heading-tabs
 		border:0
-		height:22px
+		height:40px
 		width: 90%
 		margin-left:7%
 		
 
 		li
 			padding: 0
-			margin: 0
+			margin: -2px
 			width:15%
 			text-align: center
-			border-right:1px solid #929497
-			height:21px
+			height:42px
+			padding-top:10px
 
-			&:first-child
+
+			&:nth-child(1)
 				width:19%
-				
+				.icons
+					background-image:url('../img/visa_policy_icon.png')
+					height:22px
+					width:30px
+				a
+					padding-right:5% !important 
+
+			&:nth-child(3)
+				.icons
+					background-image:url('../img/lifeinuk.png')
+					height:23px
+					width:23px				
 
 		
 
@@ -27,28 +39,32 @@
 			&:nth-child(5)
 				.icons
 					background-position: 63% 0
+				a
+					padding-right:5% !important
 	
-
+	
 			&:last-child
 				border-right:0
-					
+				width:17%
 				.icons
 					background-position: 100% 0
-			&.active
-				&:before
-					content: "\f0d7"
-					font-family: FontAwesome
-					font-style: normal
-					font-weight: normal
-					text-decoration: inherit
-					position:absolute
-					top:86px
-					left:16%
-					font-size:24px
-					color:#282561
+
+				a
+					border-right:0 !important
+
+			&.active,&:hover,&:focus
+				background-image:url('../img/down_arrow.png')
+				background-repeat:no-repeat	
+				background-position:49% 1%
+
+				&:nth-child(1)
+					background-position:45% 4%
+
+				&:nth-child(3)
+					background-position:45% 7%
+
 				a
 					font-weight:800
-					color:#282561
 
 
 
@@ -57,6 +73,8 @@
 				color:#929497
 				font-size:14pt
 				line-height: 21px
+				border-right:1px solid #929497
+				padding-right:8%
 
 
 
@@ -68,7 +86,7 @@
 		padding-top:10px
 		padding-bottom:10px
 		color:#929497
-		margin-top:15px
+		margin-top:0
 		margin-bottom:10px
 		border-top:1px solid #929497
 		border-bottom:1px dotted #929497
@@ -93,7 +111,7 @@
 		height:700px
 
 		&.col-lg-2
-			width:19% 
+			width:20.4% 
 		
 		ul
 			
@@ -200,7 +218,7 @@
 					font-size:16pt
 	.paginate
 		margin-top:20px
-		padding-left:1%
+		padding-left:3%
 		
 		li
 			a

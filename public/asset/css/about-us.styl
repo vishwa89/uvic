@@ -1,32 +1,51 @@
 #aboutUs
 	.heading-tabs
 		border:0
-		height:22px
+		height:40px
 		width: 90%
 		margin-left:7%
 
 		&.bottom
 			margin-top:20px
 			height:50px
-			padding-top:15px
-			margin-bottom:-60px
+			padding-top:0
 			border-top:1px solid #929497
-			width:1170px
-			margin-left:60px
+			width:90%
+			margin-left:5%
+			padding-left:2%
+			margin-right:5%
+			margin-bottom:-70px
+
+			li
+				&:nth-child(5)
+					width:16%
 			
 
 		
 
 		li
 			padding: 0
-			margin: 0
+			margin: -2px
 			width:15%
 			text-align: center
-			border-right:1px solid #929497
-			height:21px
-
-			&:first-child
+			height:42px
+			padding-top:10px
+			
+			&:nth-child(1)
 				width:19%
+				.icons
+					background-image:url('../img/visa_policy_icon.png')
+					height:22px
+					width:30px
+
+				a
+					padding-right:5% !important 
+
+			&:nth-child(3)
+				.icons
+					background-image:url('../img/lifeinuk.png')
+					height:23px
+					width:23px
 				
 
 		
@@ -38,21 +57,40 @@
 			&:nth-child(5)
 				.icons
 					background-position: 63% 0
+				a
+					padding-right:5% !important
 	
 
 			&:last-child
 				border-right:0
-					
+				width:17%
 				.icons
 					background-position: 100% 0
 
+				a
+					border-right:0 !important
+
+			&.active,&:hover,&:focus
+				background-image:url('../img/down_arrow.png')
+				background-repeat:no-repeat	
+				background-position:49% 1%
+
+				&:nth-child(1)
+					background-position:45% 4%
+
+				&:nth-child(3)
+					background-position:45% 7%
+
+				a
+					font-weight:800
 
 
 			a
 				color:#929497
 				font-size:14pt
 				line-height: 21px
-
+				border-right:1px solid #929497
+				padding-right:8%
 
 
 				&:hover
@@ -63,7 +101,7 @@
 		padding-top:10px
 		padding-bottom:10px
 		color:#929497
-		margin-top:15px
+		margin-top:0
 		margin-bottom:10px
 		border-top:1px solid #929497
 		border-bottom:1px dotted #929497
