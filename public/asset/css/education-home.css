@@ -116,9 +116,10 @@
   padding-left: 4%;
 }
 #educationHomepage .categories .icons {
-  background-image: url("../img/icon.png");
-  vertical-align: 0%;
-  height: 26px;
+  background-image: url("../img/level.png");
+  vertical-align: -8%;
+  height: 29px;
+  margin-right: 10px;
 }
 #educationHomepage .categories .data {
   background-color: rgba(0,173,238,0.87);
@@ -141,7 +142,7 @@
   text-decoration: none;
 }
 #educationHomepage .categories .level {
-  background: url("../img/eduhome-03.jpg") no-repeat;
+  background: url("../img/level.jpg") no-repeat;
   background-size: 100%;
   height: 350px;
   position: relative;
@@ -149,7 +150,7 @@
   margin-bottom: 2%;
 }
 #educationHomepage .categories .articles {
-  background: url("../img/eduhome-04.jpg") no-repeat;
+  background: url("../img/recommended_articles.jpg") no-repeat;
   background-size: 100%;
   height: 350px;
   position: relative;
@@ -158,19 +159,26 @@
 #educationHomepage .categories .articles h2 {
   background-color: rgba(237,46,124,0.87);
 }
+#educationHomepage .categories .articles h2 .icons {
+  background-image: url("../img/recommended_articles.png");
+}
 #educationHomepage .categories .articles .data {
   background-color: rgba(237,46,124,0.87);
 }
 #educationHomepage .categories .success {
-  background: url("../img/eduhome-05.jpg") no-repeat;
+  background: url("../img/success_cases.jpg") no-repeat;
   background-size: 100%;
   height: 350px;
   position: relative;
   width: 98%;
   margin-left: 2%;
 }
+#educationHomepage .categories .success h2 .icons {
+  margin-right: 0;
+  background-image: url("../img/icon.png");
+}
 #educationHomepage .categories .subject {
-  background: url("../img/eduhome-02.jpg") no-repeat;
+  background: url("../img/subject.jpg") no-repeat;
   background-size: 100%;
   height: 350px;
   position: relative;
@@ -180,6 +188,11 @@
 }
 #educationHomepage .categories .subject h2 {
   background-color: rgba(237,46,124,0.87);
+}
+#educationHomepage .categories .subject h2 .icons {
+  background-image: url("../img/subject.png");
+  height: 31px;
+  margin-right: 0;
 }
 #educationHomepage .categories .subject .data {
   background-color: rgba(237,46,124,0.87);
