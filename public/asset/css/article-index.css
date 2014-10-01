@@ -1,19 +1,19 @@
 #articleIndex .heading-tabs {
   border: 0;
   height: 40px;
-  width: 90%;
-  margin-left: 7%;
+  width: 960px;
+  margin-left: 12%;
 }
 #articleIndex .heading-tabs li {
   padding: 0;
   margin: -2px;
-  width: 15%;
+  width: 16%;
   text-align: center;
   height: 42px;
   padding-top: 10px;
 }
 #articleIndex .heading-tabs li:nth-child(1) {
-  width: 19%;
+  width: 20%;
 }
 #articleIndex .heading-tabs li:nth-child(1) .icons {
   background-image: url("../img/visa_policy_icon.png");
@@ -71,13 +71,17 @@
 }
 #articleIndex .heading-tabs li a {
   color: #929497;
-  font-size: 14pt;
+  font-size: 12pt;
   line-height: 21px;
   border-right: 1px solid #929497;
   padding-right: 8%;
 }
 #articleIndex .heading-tabs li a:hover {
   text-decoration: none;
+}
+#articleIndex .content {
+  width: 960px;
+  margin-left: 12%;
 }
 #articleIndex .go-back {
   font-size: 12pt;
@@ -88,8 +92,8 @@
   margin-bottom: 10px;
   border-top: 1px solid #929497;
   border-bottom: 1px dotted #929497;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 0;
+  margin-right: 0;
 }
 #articleIndex .go-back .breadcrumb {
   margin: 0;
@@ -106,16 +110,13 @@
   text-decoration: none;
 }
 #articleIndex .sidebar {
-  margin-left: 5%;
+  margin-left: 0;
   height: 700px;
-}
-#articleIndex .sidebar.col-lg-2 {
-  width: 20.4%;
 }
 #articleIndex .sidebar ul li {
   margin: 0;
   border-top: 1px dotted #929497;
-  font-size: 16pt;
+  font-size: 14pt;
   padding: 0;
   background-color: #f5f5f5;
   height: 30px;
@@ -166,7 +167,7 @@
 }
 #articleIndex .sidebar ul li.header a {
   color: #fff;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 #articleIndex .sidebar ul li.header a:hover,
 #articleIndex .sidebar ul li.header a:focus {
@@ -187,6 +188,7 @@
 }
 #articleIndex .articles {
   margin-left: 3%;
+  width: 72%;
 }
 #articleIndex .articles .media {
   border-bottom: 1px dotted #929497;
@@ -204,11 +206,11 @@
 }
 #articleIndex .articles .media .heading h4 {
   margin-top: 0;
-  font-size: 20pt;
+  font-size: 18pt;
   border-bottom: 1px solid #929497;
 }
 #articleIndex .articles .media .heading p {
-  font-size: 16pt;
+  font-size: 14pt;
 }
 #articleIndex .paginate {
   margin-top: 20px;

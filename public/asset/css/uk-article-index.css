@@ -1,33 +1,28 @@
 #ukArticleIndex .heading-tabs {
   border: 0;
   height: 40px;
-  width: 90%;
-  margin-left: 7%;
+  width: 960px;
+  margin-left: 12%;
 }
 #ukArticleIndex .heading-tabs.bottom {
-  margin-top: 20px;
+  margin-top: 0;
   height: 50px;
   padding-top: 0;
-  border-top: 1px solid #929497;
-  width: 90%;
-  margin-left: 5%;
-  padding-left: 2%;
+  margin-left: 0;
+  padding-left: 0;
   margin-right: 5%;
   margin-bottom: -70px;
-}
-#ukArticleIndex .heading-tabs.bottom li:nth-child(5) {
-  width: 16%;
 }
 #ukArticleIndex .heading-tabs li {
   padding: 0;
   margin: -2px;
-  width: 15%;
+  width: 16%;
   text-align: center;
   height: 42px;
   padding-top: 10px;
 }
 #ukArticleIndex .heading-tabs li:nth-child(1) {
-  width: 19%;
+  width: 20%;
 }
 #ukArticleIndex .heading-tabs li:nth-child(1) .icons {
   background-image: url("../img/visa_policy_icon.png");
@@ -85,13 +80,17 @@
 }
 #ukArticleIndex .heading-tabs li a {
   color: #929497;
-  font-size: 14pt;
+  font-size: 12pt;
   line-height: 21px;
   border-right: 1px solid #929497;
   padding-right: 8%;
 }
 #ukArticleIndex .heading-tabs li a:hover {
   text-decoration: none;
+}
+#ukArticleIndex .content {
+  width: 960px;
+  margin-left: 12%;
 }
 #ukArticleIndex .go-back {
   font-size: 12pt;
@@ -102,8 +101,8 @@
   margin-bottom: 10px;
   border-top: 1px solid #929497;
   border-bottom: 1px dotted #929497;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 0;
+  margin-right: 0;
 }
 #ukArticleIndex .go-back .breadcrumb {
   margin: 0;
@@ -120,16 +119,13 @@
   text-decoration: none;
 }
 #ukArticleIndex .sidebar {
-  margin-left: 5%;
+  margin-left: 0;
   height: 700px;
-}
-#ukArticleIndex .sidebar.col-lg-2 {
-  width: 20.4%;
 }
 #ukArticleIndex .sidebar ul li {
   margin: 0;
   border-top: 1px dotted #929497;
-  font-size: 16pt;
+  font-size: 14pt;
   padding: 0;
   background-color: #f5f5f5;
   height: 30px;
@@ -169,15 +165,15 @@
 }
 #ukArticleIndex .sidebar ul li.header.accommodation .icons {
   background-image: url("../img/accommodation.png");
-  height: 28px;
+  height: 23px;
 }
 #ukArticleIndex .sidebar ul li.header.uk-diary .icons {
   background-image: url("../img/uk_diary.png");
-  height: 30px;
+  height: 25px;
 }
 #ukArticleIndex .sidebar ul li.header a {
   color: #fff;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 #ukArticleIndex .sidebar ul li.header a:hover,
 #ukArticleIndex .sidebar ul li.header a:focus {
@@ -198,6 +194,7 @@
 }
 #ukArticleIndex .articles {
   margin-left: 3%;
+  width: 72%;
 }
 #ukArticleIndex .articles .media {
   border-bottom: 1px dotted #929497;
@@ -215,11 +212,11 @@
 }
 #ukArticleIndex .articles .media .heading h4 {
   margin-top: 0;
-  font-size: 20pt;
+  font-size: 18pt;
   border-bottom: 1px solid #929497;
 }
 #ukArticleIndex .articles .media .heading p {
-  font-size: 16pt;
+  font-size: 14pt;
 }
 #ukArticleIndex .paginate {
   margin-top: 20px;
@@ -238,4 +235,10 @@
 #ukArticleIndex .paginate li.active a {
   background-color: #929497;
   color: #fff;
+}
+#ukArticleIndex .tabs-margin {
+  margin-left: -9.3%;
+  width: 120.7%;
+  margin-bottom: 0;
+  border-top: 1px solid #929497;
 }

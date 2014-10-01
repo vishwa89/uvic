@@ -24,12 +24,12 @@
   border-left: 0;
 }
 .info-tab li {
-  font-size: 14pt;
+  font-size: 12pt !important;
   height: 16pt;
   color: #6d6e70;
 }
 .info-tab li a {
-  font-size: 14pt;
+  font-size: 12pt;
   padding-top: 0;
   margin-top: 0;
   color: #6d6e70;
@@ -38,4 +38,7 @@
 .info-tab li a:focus {
   text-decoration: none;
   color: #6d6e70;
+}
+.info-tab +ul li {
+  font-size: 12pt;
 }

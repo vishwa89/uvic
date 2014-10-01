@@ -1,18 +1,16 @@
 #aboutUs .heading-tabs {
   border: 0;
   height: 40px;
-  width: 90%;
-  margin-left: 7%;
+  width: 960px;
+  margin-left: 12%;
 }
 #aboutUs .heading-tabs.bottom {
-  margin-top: 20px;
   height: 50px;
   padding-top: 0;
-  border-top: 1px solid #929497;
-  width: 90%;
-  margin-left: 5%;
-  padding-left: 2%;
-  margin-right: 5%;
+  width: 960px;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
   margin-bottom: -70px;
 }
 #aboutUs .heading-tabs.bottom li:nth-child(5) {
@@ -21,13 +19,13 @@
 #aboutUs .heading-tabs li {
   padding: 0;
   margin: -2px;
-  width: 15%;
+  width: 16%;
   text-align: center;
   height: 42px;
   padding-top: 10px;
 }
 #aboutUs .heading-tabs li:nth-child(1) {
-  width: 19%;
+  width: 20%;
 }
 #aboutUs .heading-tabs li:nth-child(1) .icons {
   background-image: url("../img/visa_policy_icon.png");
@@ -85,13 +83,17 @@
 }
 #aboutUs .heading-tabs li a {
   color: #929497;
-  font-size: 14pt;
+  font-size: 12pt;
   line-height: 21px;
   border-right: 1px solid #929497;
   padding-right: 8%;
 }
 #aboutUs .heading-tabs li a:hover {
   text-decoration: none;
+}
+#aboutUs .content {
+  width: 960px;
+  margin-left: 12%;
 }
 #aboutUs .go-back {
   font-size: 12pt;
@@ -102,8 +104,8 @@
   margin-bottom: 10px;
   border-top: 1px solid #929497;
   border-bottom: 1px dotted #929497;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 0;
+  margin-right: 0;
 }
 #aboutUs .go-back .breadcrumb {
   margin: 0;
@@ -120,16 +122,13 @@
   text-decoration: none;
 }
 #aboutUs .sidebar {
-  margin-left: 5%;
+  margin-left: 0;
   height: 700px;
-}
-#aboutUs .sidebar.col-lg-2 {
-  width: 19%;
 }
 #aboutUs .sidebar ul li {
   margin: 0;
   border-top: 1px dotted #929497;
-  font-size: 16pt;
+  font-size: 14pt;
   padding: 0;
   background-color: #f5f5f5;
   height: 30px;
@@ -161,7 +160,7 @@
 }
 #aboutUs .sidebar ul li.header a {
   color: #fff;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 #aboutUs .sidebar ul li.header a:hover,
 #aboutUs .sidebar ul li.header a:focus {
@@ -181,18 +180,24 @@
   margin-left: 3%;
 }
 #aboutUs .about-us-article h4 {
-  font-size: 20pt;
+  font-size: 18pt;
   border-bottom: 1px solid #929497;
 }
 #aboutUs .about-us-article h4.date {
   text-align: right;
 }
 #aboutUs .about-us-article p {
-  font-size: 14pt;
+  font-size: 12pt;
 }
 #aboutUs .about-us-article img {
   width: 100%;
 }
 #aboutUs .about-us-article .contact img {
   width: 99%;
+}
+#aboutUs .tabs-margin {
+  margin-left: -9.3%;
+  width: 120.7%;
+  margin-bottom: 0;
+  border-top: 1px solid #929497;
 }

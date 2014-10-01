@@ -1,22 +1,20 @@
-#studentVisa {
-  margin-left: 7%;
-}
 #studentVisa .heading-tabs {
   border: 0;
   height: 40px;
-  width: 90%;
+  width: 960px;
   margin-bottom: 10px;
+  margin-left: 12%;
 }
 #studentVisa .heading-tabs li {
   padding: 0;
   margin: -2px;
-  width: 15%;
+  width: 16%;
   text-align: center;
   height: 42px;
   padding-top: 10px;
 }
 #studentVisa .heading-tabs li:nth-child(1) {
-  width: 19%;
+  width: 20%;
 }
 #studentVisa .heading-tabs li:nth-child(1) .icons {
   background-image: url("../img/visa_policy_icon.png");
@@ -36,6 +34,9 @@
 }
 #studentVisa .heading-tabs li:nth-child(5) .icons {
   background-position: 63% 0;
+}
+#studentVisa .heading-tabs li:nth-child(5) a {
+  padding-right: 5% !important;
 }
 #studentVisa .heading-tabs li:last-child {
   border-right: 0;
@@ -71,7 +72,7 @@
 }
 #studentVisa .heading-tabs li a {
   color: #929497;
-  font-size: 14pt;
+  font-size: 12pt;
   line-height: 21px;
   border-right: 1px solid #929497;
   padding-right: 8%;
@@ -83,9 +84,13 @@
   margin-top: 0;
   padding-top: 20px;
   padding-bottom: 10px;
-  font-size: 16pt;
+  font-size: 12pt;
   color: #262261;
   border-bottom: 1px solid #929497;
+}
+#studentVisa .content {
+  width: 960px;
+  margin-left: 12%;
 }
 #studentVisa .sidebar {
   min-height: 750px;
@@ -104,7 +109,7 @@
 }
 #studentVisa .sidebar ul li.active {
   background-color: #262261;
-  font-size: 14pt;
+  font-size: 12pt;
   margin: 0;
 }
 #studentVisa .sidebar ul li.active a {
@@ -130,7 +135,7 @@
   display: none;
 }
 #studentVisa .sidebar ul li a {
-  font-size: 14pt;
+  font-size: 12pt;
   color: #929497;
   padding: 5px;
   margin: 0;
@@ -174,7 +179,8 @@
   background-color: transparent;
   color: #262261;
 }
-#studentVisa .content {
+#studentVisa .content-desc {
+  width: 72%;
   padding-left: 2%;
   border-top: 1px solid #929497;
 }
