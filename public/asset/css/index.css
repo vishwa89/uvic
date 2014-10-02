@@ -7,7 +7,7 @@
 }
 #homepage .heading-tabs li {
   padding: 0;
-  margin: -2px;
+  margin: -3px;
   width: 20%;
   text-align: center;
   height: 42px;
@@ -46,7 +46,7 @@
 #homepage .heading-tabs li.active:nth-child(2),
 #homepage .heading-tabs li:hover:nth-child(2),
 #homepage .heading-tabs li:focus:nth-child(2) {
-  background-position: 45% 7%;
+  background-position: 45% 10%;
 }
 #homepage .heading-tabs li.active a,
 #homepage .heading-tabs li:hover a,
@@ -83,49 +83,14 @@
 #homepage h2 {
   margin: 0;
   font-weight: 600;
-  font-size: 33pt;
+  font-size: 31pt;
   position: relative;
   top: 45%;
   transform: translateY(-45%);
 }
 #homepage p {
-  font-size: 18pt;
+  font-size: 16pt;
   position: relative;
   top: 45%;
   transform: translateY(-45%);
-}
-#homepage .valuable-articles {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 80px;
-}
-#homepage .valuable-articles p {
-  text-align: center;
-  color: #6d6e70;
-  font-size: 12pt;
-}
-#homepage .valuable-articles ul {
-  border: 1px solid #000;
-  border-radius: 10px;
-  height: 22px;
-  width: 100%;
-}
-#homepage .valuable-articles ul li {
-  padding: 0;
-  margin: 0;
-  width: 24%;
-  text-align: center;
-  border-right: 1px solid #000;
-  height: 21px;
-}
-#homepage .valuable-articles ul li:last-child {
-  border-right: 0;
-}
-#homepage .valuable-articles ul li a {
-  color: #6d6e70;
-  font-size: 12pt;
-  line-height: 21px;
-}
-#homepage .valuable-articles ul li a:hover {
-  text-decoration: none;
 }

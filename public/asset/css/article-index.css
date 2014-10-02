@@ -6,7 +6,7 @@
 }
 #articleIndex .heading-tabs li {
   padding: 0;
-  margin: -2px;
+  margin: -3px;
   width: 16%;
   text-align: center;
   height: 42px;
@@ -35,7 +35,7 @@
   background-position: 63% 0;
 }
 #articleIndex .heading-tabs li:nth-child(5) a {
-  padding-right: 5% !important;
+  padding-right: 4% !important;
 }
 #articleIndex .heading-tabs li:last-child {
   border-right: 0;
@@ -57,12 +57,12 @@
 #articleIndex .heading-tabs li.active:nth-child(1),
 #articleIndex .heading-tabs li:hover:nth-child(1),
 #articleIndex .heading-tabs li:focus:nth-child(1) {
-  background-position: 45% 4%;
+  background-position: 45% 7%;
 }
 #articleIndex .heading-tabs li.active:nth-child(3),
 #articleIndex .heading-tabs li:hover:nth-child(3),
 #articleIndex .heading-tabs li:focus:nth-child(3) {
-  background-position: 45% 7%;
+  background-position: 45% 10%;
 }
 #articleIndex .heading-tabs li.active a,
 #articleIndex .heading-tabs li:hover a,
@@ -206,11 +206,11 @@
 }
 #articleIndex .articles .media .heading h4 {
   margin-top: 0;
-  font-size: 18pt;
+  font-size: 16pt;
   border-bottom: 1px solid #929497;
 }
 #articleIndex .articles .media .heading p {
-  font-size: 14pt;
+  font-size: 12pt;
 }
 #articleIndex .paginate {
   margin-top: 20px;

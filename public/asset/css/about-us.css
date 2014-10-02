@@ -7,18 +7,16 @@
 #aboutUs .heading-tabs.bottom {
   height: 50px;
   padding-top: 0;
+  margin-top: 0;
   width: 960px;
   margin-left: 0;
   padding-left: 0;
   margin-right: 0;
   margin-bottom: -70px;
 }
-#aboutUs .heading-tabs.bottom li:nth-child(5) {
-  width: 16%;
-}
 #aboutUs .heading-tabs li {
   padding: 0;
-  margin: -2px;
+  margin: -3px;
   width: 16%;
   text-align: center;
   height: 42px;
@@ -47,7 +45,7 @@
   background-position: 63% 0;
 }
 #aboutUs .heading-tabs li:nth-child(5) a {
-  padding-right: 5% !important;
+  padding-right: 4% !important;
 }
 #aboutUs .heading-tabs li:last-child {
   border-right: 0;
@@ -69,12 +67,12 @@
 #aboutUs .heading-tabs li.active:nth-child(1),
 #aboutUs .heading-tabs li:hover:nth-child(1),
 #aboutUs .heading-tabs li:focus:nth-child(1) {
-  background-position: 45% 4%;
+  background-position: 45% 7%;
 }
 #aboutUs .heading-tabs li.active:nth-child(3),
 #aboutUs .heading-tabs li:hover:nth-child(3),
 #aboutUs .heading-tabs li:focus:nth-child(3) {
-  background-position: 45% 7%;
+  background-position: 45% 10%;
 }
 #aboutUs .heading-tabs li.active a,
 #aboutUs .heading-tabs li:hover a,
@@ -180,14 +178,14 @@
   margin-left: 3%;
 }
 #aboutUs .about-us-article h4 {
-  font-size: 18pt;
+  font-size: 16pt;
   border-bottom: 1px solid #929497;
 }
 #aboutUs .about-us-article h4.date {
   text-align: right;
 }
 #aboutUs .about-us-article p {
-  font-size: 12pt;
+  font-size: 11pt;
 }
 #aboutUs .about-us-article img {
   width: 100%;

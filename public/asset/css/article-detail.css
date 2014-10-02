@@ -6,7 +6,7 @@
 }
 #articleDetail .heading-tabs li {
   padding: 0;
-  margin: -2px;
+  margin: -3px;
   width: 16%;
   text-align: center;
   height: 42px;
@@ -35,7 +35,7 @@
   background-position: 63% 0;
 }
 #articleDetail .heading-tabs li:nth-child(5) a {
-  padding-right: 5% !important;
+  padding-right: 4% !important;
 }
 #articleDetail .heading-tabs li:last-child {
   border-right: 0;
@@ -57,12 +57,12 @@
 #articleDetail .heading-tabs li.active:nth-child(1),
 #articleDetail .heading-tabs li:hover:nth-child(1),
 #articleDetail .heading-tabs li:focus:nth-child(1) {
-  background-position: 45% 4%;
+  background-position: 45% 7%;
 }
 #articleDetail .heading-tabs li.active:nth-child(3),
 #articleDetail .heading-tabs li:hover:nth-child(3),
 #articleDetail .heading-tabs li:focus:nth-child(3) {
-  background-position: 45% 7%;
+  background-position: 45% 10%;
 }
 #articleDetail .heading-tabs li.active a,
 #articleDetail .heading-tabs li:hover a,
@@ -192,7 +192,7 @@
   width: 72%;
 }
 #articleDetail .article h4 {
-  font-size: 18pt;
+  font-size: 16pt;
   border-bottom: 1px solid #929497;
   color: #282561;
   font-weight: 800;
@@ -204,7 +204,7 @@
   width: 100%;
 }
 #articleDetail .article p {
-  font-size: 12pt;
+  font-size: 11pt;
 }
 #articleDetail .article .paginate {
   border-top: 1px dotted #929497;
@@ -217,7 +217,7 @@
   border-top: 0;
 }
 #articleDetail .article .paginate li a {
-  font-size: 12pt;
+  font-size: 11pt;
   color: #929497;
 }
 #articleDetail .article .paginate li a:hover,

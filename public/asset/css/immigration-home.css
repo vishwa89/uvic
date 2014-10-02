@@ -6,7 +6,7 @@
 }
 #immigrationHomepage .heading-tabs li {
   padding: 0;
-  margin: -2px;
+  margin: -3px;
   width: 16%;
   text-align: center;
   height: 42px;
@@ -35,7 +35,7 @@
   background-position: 63% 0;
 }
 #immigrationHomepage .heading-tabs li:nth-child(5) a {
-  padding-right: 5% !important;
+  padding-right: 4% !important;
 }
 #immigrationHomepage .heading-tabs li:last-child {
   border-right: 0;
@@ -57,12 +57,12 @@
 #immigrationHomepage .heading-tabs li.active:nth-child(1),
 #immigrationHomepage .heading-tabs li:hover:nth-child(1),
 #immigrationHomepage .heading-tabs li:focus:nth-child(1) {
-  background-position: 45% 4%;
+  background-position: 45% 7%;
 }
 #immigrationHomepage .heading-tabs li.active:nth-child(3),
 #immigrationHomepage .heading-tabs li:hover:nth-child(3),
 #immigrationHomepage .heading-tabs li:focus:nth-child(3) {
-  background-position: 45% 7%;
+  background-position: 45% 10%;
 }
 #immigrationHomepage .heading-tabs li.active a,
 #immigrationHomepage .heading-tabs li:hover a,
@@ -80,7 +80,7 @@
   text-decoration: none;
 }
 #immigrationHomepage .banner {
-  background: url("../img/banner.jpg") no-repeat;
+  background: url("../img/banner_immi.jpg") no-repeat;
   height: 350px;
   background-size: 100%;
 }
@@ -92,7 +92,7 @@
   margin: 0;
   padding: 0;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 #immigrationHomepage .categories .student,
 #immigrationHomepage .categories .family,
@@ -106,12 +106,13 @@
   float: left;
 }
 #immigrationHomepage .categories h5 {
-  font-size: 18pt;
+  font-size: 16pt;
   background-color: rgba(40,37,97,0.87);
   color: #fff;
   height: 45px;
   margin-top: 0;
-  padding: 5px 0 5px 10px;
+  padding: 10px 0 5px 15px;
+  font-weight: 800;
 }
 #immigrationHomepage .categories p {
   background-color: rgba(236,28,36,0.87);
@@ -167,7 +168,7 @@
   margin-left: 5%;
 }
 #immigrationHomepage .customer-info h3 {
-  border-bottom: 1px solid #282561;
+  border-bottom: 2px solid #929497;
   padding-bottom: 10px;
   font-size: 14pt;
   color: #262261;
@@ -176,7 +177,7 @@
 }
 #immigrationHomepage .customer-info p,
 #immigrationHomepage .customer-info a {
-  font-size: 14pt;
+  font-size: 13pt;
   color: #262261;
 }
 #immigrationHomepage .customer-info a {
@@ -189,9 +190,9 @@
   text-decoration: none;
 }
 #immigrationHomepage .customer-info .testimonials {
-  height: 480px;
+  height: 450px;
   padding-right: 15px;
-  border-right: 1px solid #282561;
+  border-right: 1px solid #929497;
   margin-bottom: 15px;
 }
 #immigrationHomepage .customer-info .testimonials .icons {
@@ -205,14 +206,14 @@
 }
 #immigrationHomepage .customer-info .testimonials h4 {
   text-transform: uppercase;
-  font-size: 16pt;
+  font-size: 14pt;
   color: #262261;
 }
 #immigrationHomepage .customer-info .testimonials h4 .icons {
   background-position: 30% 44%;
 }
 #immigrationHomepage .customer-info .successful {
-  height: 480px;
+  height: 450px;
   padding-left: 15px;
   margin-bottom: 15px;
 }
@@ -226,7 +227,7 @@
   height: 100%;
 }
 #immigrationHomepage .customer-info .successful h4 {
-  font-size: 18pt;
+  font-size: 14pt;
 }
 #immigrationHomepage .customer-info .successful h4 .icons {
   background-position: 30% 69%;
@@ -238,9 +239,10 @@
   margin-bottom: -61px;
 }
 #immigrationHomepage .process-info .header {
-  font-size: 15pt;
+  font-size: 13pt;
   border-bottom: 1px solid #fff;
   color: #fff;
+  font-weight: 800;
 }
 #immigrationHomepage .process-info p,
 #immigrationHomepage .process-info h4,
@@ -251,6 +253,7 @@
 #immigrationHomepage .process-info a {
   padding-top: 5%;
   font-style: italic;
+  font-weight: normal;
 }
 #immigrationHomepage .process-info a:hover,
 #immigrationHomepage .process-info a:focus {
